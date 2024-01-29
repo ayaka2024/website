@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/script.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=M+PLUS+1p&family=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top">
+            <img class="header_img" src="img/logo.png">
+            <p class="header_logo">あさの動物園</p>
+        </div>
+        <ul class="menu">
+            <li class="menu_item"><a href="#news">お知らせ</a></li>
+            <li class="menu_item"><a href="#info">施設案内</a></li>
+            <li class="menu_item"><a href="#galley">ギャラリー</a></li>
+            <li class="menu_item"><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="main_visual">
+            <div class="main_img">
+                <img src="img/main1.jpg">
+                <img src="img/main2.jpg">
+                <img src="img/main3.jpg">
+            </div>
+            <p class="main_title">Welcome to Animal World!</p>
+        </div>
+        <div class="news"><a id="news"></a>
+            <div class="heading">
+                <div class="newsDeco">
+                    <p class="title">NEWS</p>
+                </div>
+                <p class="subTitle">お知らせ</p>
+            </div>
+            <div class="news_list">
+                <div class="news_topics">
+                    <img class="news_img" src="img/news1.jpg">
+                    <p class="news_lead">ふたごのパンダが生まれました！</p>
+                    <p class="news_text">元気なふたごのパンダが生まれました。愛称を募集しています。どうかあたたかくみまもってください。</p>
+                </div>
+                <div class="news_topics">
+                    <img class="news_img" src="img/news2.jpg">
+                    <p class="news_lead">おやつタイムがかわりました</p>
+                    <p class="news_text">おやつタイムがかわりました。時間は詳細をご覧ください。ぜひかわいい動物たちとふれあってみてください。</p>
+                </div>
+                <div class="news_topics">
+                    <img class="news_img" src="img/news3.jpg">
+                    <p class="news_lead">レッサーパンダの展示を再開します</p>
+                    <p class="news_text">病気だったレッサーパンダが、皆様の応援のおかげで元気になりました。また会いにきてください。</p>
+                </div>
+                <div class="news_topics">
+                    <img class="news_img" src="img/news4.jpg">
+                    <p class="news_lead">公園に入場できるようになりました</p>
+                    <p class="news_text">台風により一部通路が損壊していましたが、無事修復が完了しました。開園時間内は自由に入場可能です。</p>
+                </div>
+            </div>
+        </div>
+        <div class="info"><a id="info"></a>
+            <div class="info_content">
+                <div class="heading">
+                    <p class="title_secondary">INFORMATION</p>
+                    <p class="subTitle">施設案内</p>
+                </div>
+                <div class="info_inner">
+                    <img class="info_pic" src="img/info_pic.jpg">
+                    <div class="info_text">
+                        <p class="info_lead">あさの動物園へようこそ！</p>
+                        <p class="info_detail">
+                            あさの動物園は緑に囲まれており、生息地に近い環境で生き生きとすごしている動物たちを観察できます。お食事・おやつタイムで動物たちにご飯をあげられたり、ふれあい施設では実際に撫でることもできます。<br>
+                            公園内では、お弁当を持ち込みしてピクニックを楽しむこともできますので、ぜひお越しください。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="galley"><a id="galley"></a>
+            <div class="heading">
+                <div class="galleyDeco">
+                    <p class="title">GALLEY</p>
+                </div>
+                <p class="subTitle">ギャラリー</p>
+            </div>
+            <div class="galley_list">
+                <img class="galley_img" src="img/galley1.jpg">
+                <img class="galley_img" src="img/galley2.jpg">
+                <img class="galley_img" src="img/galley3.jpg">
+                <img class="galley_img" src="img/galley4.jpg">
+                <img class="galley_img" src="img/galley5.jpg">
+                <img class="galley_img" src="img/galley6.jpg">
+            </div>
+        </div>
+        <div class="contact"><a id="contact"></a>
+            <div class="contact_content">
+                <div class="heading">
+                    <p class="title_secondary">CONTACT</p>
+                    <p class="subTitle">お問い合わせ</p>
+                </div>
+                <form class="contact_form">
+                    <div class="contact_item">
+                        <label class="label">氏　名</label>
+                        <input class="inputs" type="text" name="name">
+                    </div>
+                    <div class="contact_item">
+                        <label class="label">メール</label>
+                        <input class="inputs" type="email" name="mail">
+                    </div>
+                    <div class="contact_item">
+                        <label class="label">電話番号</label>
+                        <input class="inputs" type="num" name="tel">
+                    </div>
+                    <div class="contact_item">
+                        <label class="label">内　容</label>
+                        <input class="inputsRequest" type="text" name="request"></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="送　信" class="submitBtn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="pagetop">
+            <img class="topButton" src="img/topButton.png" width="100%">
+        </div>
+    </main>
+    <footer class="footer">
+        © 2022 manabiya-sakura
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>
